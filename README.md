@@ -46,7 +46,7 @@ This script provides a complete solution for installing and configuring Ableton 
 ```bash
 # Installs latest Ableton Live trial (license inside of Ableton to Unlock the Full Version - the .exe binary is the same between Live Trial and Live Full)
 
-curl -fsSL https://raw.githubusercontent.com/BenevolenceMessiah/ableton_setup/main/ableton_setup.sh   | bash -- --no-features
+curl -fsSL https://raw.githubusercontent.com/BenevolenceMessiah/ableton_setup/main/ableton_setup.sh   | bash -- --no-features --no-timeout
 ```
 
 ### -Or- Point to Your local .exe file for the Full version
